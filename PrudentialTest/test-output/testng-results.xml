@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="PrudentialSuite" duration-ms="265972" started-at="2018-10-02T15:02:44Z" finished-at="2018-10-02T15:07:10Z">
+    <groups>
+    </groups>
+    <test name="PrudentialTest" duration-ms="265972" started-at="2018-10-02T15:02:44Z" finished-at="2018-10-02T15:07:10Z">
+      <class name="com.prudential.tests.TC001_Validation">
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:com.prudential.tests.TC001_Validation@43dac38f]" name="launchApplication" duration-ms="22613" started-at="2018-10-02T15:02:45Z" finished-at="2018-10-02T15:03:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="validation()[pri:1, instance:com.prudential.tests.TC001_Validation@43dac38f]" name="validation" duration-ms="426" started-at="2018-10-02T15:04:27Z" finished-at="2018-10-02T15:04:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validation -->
+        <test-method status="PASS" signature="exit()[pri:0, instance:com.prudential.tests.TC001_Validation@43dac38f]" name="exit" is-config="true" duration-ms="911" started-at="2018-10-02T15:07:11Z" finished-at="2018-10-02T15:07:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+      </class> <!-- com.prudential.tests.TC001_Validation -->
+      <class name="com.prudential.tests.TC003_ValidCity">
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:com.prudential.tests.TC003_ValidCity@c88a337]" name="launchApplication" duration-ms="22634" started-at="2018-10-02T15:03:21Z" finished-at="2018-10-02T15:03:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="searchFunctionality()[pri:1, instance:com.prudential.tests.TC003_ValidCity@c88a337]" name="searchFunctionality" duration-ms="30271" started-at="2018-10-02T15:05:12Z" finished-at="2018-10-02T15:05:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchFunctionality -->
+      </class> <!-- com.prudential.tests.TC003_ValidCity -->
+      <class name="com.prudential.tests.TC004_CurrentLocation">
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:com.prudential.tests.TC004_CurrentLocation@5d0a1059]" name="launchApplication" duration-ms="21373" started-at="2018-10-02T15:03:44Z" finished-at="2018-10-02T15:04:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="currenLocationFunctionality()[pri:1, instance:com.prudential.tests.TC004_CurrentLocation@5d0a1059]" name="currenLocationFunctionality" duration-ms="81566" started-at="2018-10-02T15:05:42Z" finished-at="2018-10-02T15:07:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- currenLocationFunctionality -->
+      </class> <!-- com.prudential.tests.TC004_CurrentLocation -->
+      <class name="com.prudential.tests.TC002_InvalidCity">
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:com.prudential.tests.TC002_InvalidCity@342c38f8]" name="launchApplication" duration-ms="14359" started-at="2018-10-02T15:03:07Z" finished-at="2018-10-02T15:03:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="searchFunctionality()[pri:1, instance:com.prudential.tests.TC002_InvalidCity@342c38f8]" name="searchFunctionality" duration-ms="44080" started-at="2018-10-02T15:04:28Z" finished-at="2018-10-02T15:05:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchFunctionality -->
+      </class> <!-- com.prudential.tests.TC002_InvalidCity -->
+      <class name="com.prudential.tests.TC005_WrongData">
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:com.prudential.tests.TC005_WrongData@485966cc]" name="launchApplication" duration-ms="21630" started-at="2018-10-02T15:04:06Z" finished-at="2018-10-02T15:04:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="wrongDataFunctionality()[pri:1, instance:com.prudential.tests.TC005_WrongData@485966cc]" name="wrongDataFunctionality" duration-ms="6979" started-at="2018-10-02T15:07:03Z" finished-at="2018-10-02T15:07:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wrongDataFunctionality -->
+      </class> <!-- com.prudential.tests.TC005_WrongData -->
+    </test> <!-- PrudentialTest -->
+  </suite> <!-- PrudentialSuite -->
+</testng-results>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [PrudentialSuite]">
+  <test thread-count="5" name="PrudentialTest(failed)">
+    <classes>
+      <class name="com.prudential.tests.TC004_CurrentLocation">
+        <methods>
+          <include name="currenLocationFunctionality"/>
+        </methods>
+      </class> <!-- com.prudential.tests.TC004_CurrentLocation -->
+    </classes>
+  </test> <!-- PrudentialTest(failed) -->
+</suite> <!-- Failed suite [PrudentialSuite] -->

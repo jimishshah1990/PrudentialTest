@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-PrudentialSuite">
+              <span class="suite-name border-passed">PrudentialSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-PrudentialSuite">
+                    <span>C:\Users\Admin\eclipse-workspace\PrudentialTest\AutomationTest.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-PrudentialSuite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-PrudentialSuite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-PrudentialSuite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-PrudentialSuite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-PrudentialSuite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-PrudentialSuite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">10 methods,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-PrudentialSuite" class="hide-methods passed suite-PrudentialSuite"> (hide)</a> <!-- hide-methods passed suite-PrudentialSuite -->
+                      <a href="#" panel-name="suite-PrudentialSuite" class="show-methods passed suite-PrudentialSuite"> (show)</a> <!-- show-methods passed suite-PrudentialSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-PrudentialSuite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PrudentialSuite" title="com.prudential.tests.TC004_CurrentLocation" hash-for-method="currenLocationFunctionality">currenLocationFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PrudentialSuite" title="com.prudential.tests.TC005_WrongData" hash-for-method="launchApplication">launchApplication</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PrudentialSuite" title="com.prudential.tests.TC001_Validation" hash-for-method="launchApplication">launchApplication</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PrudentialSuite" title="com.prudential.tests.TC003_ValidCity" hash-for-method="launchApplication">launchApplication</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PrudentialSuite" title="com.prudential.tests.TC002_InvalidCity" hash-for-method="launchApplication">launchApplication</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PrudentialSuite" title="com.prudential.tests.TC004_CurrentLocation" hash-for-method="launchApplication">launchApplication</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PrudentialSuite" title="com.prudential.tests.TC002_InvalidCity" hash-for-method="searchFunctionality">searchFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PrudentialSuite" title="com.prudential.tests.TC003_ValidCity" hash-for-method="searchFunctionality">searchFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PrudentialSuite" title="com.prudential.tests.TC001_Validation" hash-for-method="validation">validation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PrudentialSuite" title="com.prudential.tests.TC005_WrongData" hash-for-method="wrongDataFunctionality">wrongDataFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-PrudentialSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-PrudentialSuite" class="panel PrudentialSuite">
+          <div class="suite-PrudentialSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.prudential.tests.TC002_InvalidCity</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchApplication">
+                  </a> <!-- launchApplication -->
+                  <span class="method-name">launchApplication</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchFunctionality">
+                  </a> <!-- searchFunctionality -->
+                  <span class="method-name">searchFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PrudentialSuite-class-passed -->
+          <div class="suite-PrudentialSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.prudential.tests.TC004_CurrentLocation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="currenLocationFunctionality">
+                  </a> <!-- currenLocationFunctionality -->
+                  <span class="method-name">currenLocationFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchApplication">
+                  </a> <!-- launchApplication -->
+                  <span class="method-name">launchApplication</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PrudentialSuite-class-passed -->
+          <div class="suite-PrudentialSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.prudential.tests.TC003_ValidCity</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchApplication">
+                  </a> <!-- launchApplication -->
+                  <span class="method-name">launchApplication</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchFunctionality">
+                  </a> <!-- searchFunctionality -->
+                  <span class="method-name">searchFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PrudentialSuite-class-passed -->
+          <div class="suite-PrudentialSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.prudential.tests.TC001_Validation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchApplication">
+                  </a> <!-- launchApplication -->
+                  <span class="method-name">launchApplication</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validation">
+                  </a> <!-- validation -->
+                  <span class="method-name">validation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PrudentialSuite-class-passed -->
+          <div class="suite-PrudentialSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.prudential.tests.TC005_WrongData</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchApplication">
+                  </a> <!-- launchApplication -->
+                  <span class="method-name">launchApplication</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="wrongDataFunctionality">
+                  </a> <!-- wrongDataFunctionality -->
+                  <span class="method-name">wrongDataFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PrudentialSuite-class-passed -->
+        </div> <!-- panel PrudentialSuite -->
+        <div panel-name="test-xml-PrudentialSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Admin\eclipse-workspace\PrudentialTest\AutomationTest.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;PrudentialSuite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;PrudentialTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.prudential.tests.TC001_Validation&quot;/&gt;
+      &lt;class name=&quot;com.prudential.tests.TC002_InvalidCity&quot;/&gt;
+      &lt;class name=&quot;com.prudential.tests.TC003_ValidCity&quot;/&gt;
+      &lt;class name=&quot;com.prudential.tests.TC004_CurrentLocation&quot;/&gt;
+      &lt;class name=&quot;com.prudential.tests.TC005_WrongData&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- PrudentialTest --&gt;
+&lt;/suite&gt; &lt;!-- PrudentialSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-PrudentialSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for PrudentialSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">PrudentialTest (5 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-PrudentialSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for PrudentialSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-PrudentialSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for PrudentialSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_PrudentialSuite');
+function tableData_PrudentialSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(10);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'currenLocationFunctionality')
+data.setCell(0, 2, 'com.prudential.tests.TC004_CurrentLocation')
+data.setCell(0, 3, 81566);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'searchFunctionality')
+data.setCell(1, 2, 'com.prudential.tests.TC002_InvalidCity')
+data.setCell(1, 3, 44080);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'searchFunctionality')
+data.setCell(2, 2, 'com.prudential.tests.TC003_ValidCity')
+data.setCell(2, 3, 30271);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'launchApplication')
+data.setCell(3, 2, 'com.prudential.tests.TC003_ValidCity')
+data.setCell(3, 3, 22634);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'launchApplication')
+data.setCell(4, 2, 'com.prudential.tests.TC001_Validation')
+data.setCell(4, 3, 22613);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'launchApplication')
+data.setCell(5, 2, 'com.prudential.tests.TC005_WrongData')
+data.setCell(5, 3, 21630);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'launchApplication')
+data.setCell(6, 2, 'com.prudential.tests.TC004_CurrentLocation')
+data.setCell(6, 3, 21373);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'launchApplication')
+data.setCell(7, 2, 'com.prudential.tests.TC002_InvalidCity')
+data.setCell(7, 3, 14359);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'wrongDataFunctionality')
+data.setCell(8, 2, 'com.prudential.tests.TC005_WrongData')
+data.setCell(8, 3, 6979);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'validation')
+data.setCell(9, 2, 'com.prudential.tests.TC001_Validation')
+data.setCell(9, 3, 426);
+window.suiteTableData['PrudentialSuite']= { tableData: data, tableDiv: 'times-div-PrudentialSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <div id="times-div-PrudentialSuite">
+              </div> <!-- times-div-PrudentialSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-PrudentialSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for PrudentialSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-PrudentialSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-PrudentialSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.prudential.tests.TC001_Validation</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.prudential.tests.TC002_InvalidCity</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">22617 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.prudential.tests.TC003_ValidCity</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">36977 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.prudential.tests.TC004_CurrentLocation</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">59616 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.prudential.tests.TC005_WrongData</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">80990 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.prudential.tests.TC001_Validation</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validation</span>
+                <span class="method-start">102623 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.prudential.tests.TC002_InvalidCity</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">searchFunctionality</span>
+                <span class="method-start">103049 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.prudential.tests.TC003_ValidCity</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">searchFunctionality</span>
+                <span class="method-start">147130 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.prudential.tests.TC004_CurrentLocation</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">currenLocationFunctionality</span>
+                <span class="method-start">177403 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.prudential.tests.TC005_WrongData</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">wrongDataFunctionality</span>
+                <span class="method-start">258970 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.prudential.tests.TC001_Validation</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">exit</span>
+                <span class="method-start">266564 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="PrudentialSuite">
+<test name="PrudentialTest">
+
+<classes>
+
+<class name="com.prudential.tests.TC001_Validation"></class>
+<class name="com.prudential.tests.TC002_InvalidCity"></class>
+<class name="com.prudential.tests.TC003_ValidCity"></class>
+<class name="com.prudential.tests.TC004_CurrentLocation"></class>
+<class name="com.prudential.tests.TC005_WrongData"></class>
+
+
+</classes>
+
+</test>
+</suite>
